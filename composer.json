@@ -1,5 +1,5 @@
 {
-    "name": "symfony-cmf/routing-auto",
+    "name": "cpoint-eu/routing-auto",
     "description": "Component for automatically creating and managing routes for persisted objects",
     "homepage": "http://cmf.symfony.com",
     "license": "MIT",
@@ -13,9 +13,9 @@
         "php": "^7.1",
         "symfony-cmf/slugifier-api": "^1.0 || ^2.0",
         "symfony-cmf/routing": "^1.2 || ^2.0",
-        "symfony/options-resolver": "^2.8 || ^3.3 || ^4.0",
-        "symfony/config": "^2.8 || ^3.3 || ^4.0",
-        "jms/metadata": "^1.5"
+        "symfony/options-resolver": "^2.8 || ^3.3 || ^4.0 || ^5.0",
+        "symfony/config": "^2.8 || ^3.3 || ^4.0 || ^5.0",
+        "jms/metadata": "^2.1"
     },
     "require-dev": {
         "symfony/yaml": "^2.8 || ^3.3 || ^4.0",
