@@ -36,7 +36,7 @@ class YmlFileLoader extends FileLoader
      *
      * @throws \InvalidArgumentException When the $file cannot be parsed
      */
-    public function load($file, $type = null)
+    public function load($file, string $type = null)
     {
         $path = $this->locator->locate($file);
 
@@ -179,7 +179,7 @@ class YmlFileLoader extends FileLoader
     /**
      * {@inheritdoc}
      */
-    public function supports($resource, $type = null)
+    public function supports($resource, string $type = null)
     {
         if (!is_string($resource)) {
             return false;
